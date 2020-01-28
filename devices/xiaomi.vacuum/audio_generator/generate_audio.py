@@ -122,7 +122,7 @@ for filename, text in filereader:
                 voice = "Amy"
             if gender == "male":
                 voice = "Brian"
-        os.system("aws polly synthesize-speech --output-format mp3 --voice-id {} --text \"{}\" {}.mp3".format(voice, text, path))
+        os.system("aws polly synthesize-speech --output-format mp3 --voice-id {} --text-type ssml --text \"{}\" {}.mp3".format(voice, text, path))
         os.system("ffmpeg -hide_banner -loglevel panic -i {0}.mp3 {0}".format(path))
         os.remove("{}.mp3".format(path))
     elif engine == "espeak":
