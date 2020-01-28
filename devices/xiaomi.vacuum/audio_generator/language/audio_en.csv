@@ -44,7 +44,7 @@ goto_complete.wav,"<speak><emphasis level='moderate'>Reached</emphasis> the targ
 goto_failed.wav,"<speak>Could not reach the target.</speak>"
 home.wav,"<speak>Returning to base.</speak>"
 map_restore.wav,"<speak>Map has been restored, starting to charge.</speak>"
-no_power.wav,"<speak>My batteries are <emphasis level='strong'>quite</emphasis> low, returning to base.</speak></speak>"
+no_power.wav,"<speak>My batteries are <emphasis level='strong'>quite</emphasis> low, returning to base.</speak>"
 no_power_charging.wav,"<speak>My batteries are quite low. More charging needed.</speak>"
 no_spot_on_dock.wav,"<speak>Move the vacuum to the target area, then start spot cleaning.</speak>"
 pause.wav,"<speak>Paused.</speak>"
