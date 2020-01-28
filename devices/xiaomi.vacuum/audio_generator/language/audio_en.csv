@@ -1,7 +1,7 @@
 back_dock_failed.wav,"<speak>Couldn't reach the charging base, remove any obstacles, and clean the base's transmission area.</speak>"
 back_dock_nearby.wav,"<speak>Cannot reach the base, please remove any obstacles!</speak>"
 bin_in.wav,"<speak>Waste bin, installed.</speak>"
-bin_out.wav,"<speak>Waste bin, <emphasis level=\'moderate'>removed.</emphasis></speak>"
+bin_out.wav,"<speak>Waste bin, <emphasis level='moderate'>removed.</emphasis></speak>"
 binout_error10.wav,"<speak>Filter is clogged.  Remove the waste bin, and clean the filter!</speak>"
 bl_recovery_bootfailed.wav,"<speak>Failed to start.  Restoring factory settings.  This will take about 5 minutes.</speak>"
 bl_recovery_failed.wav,"<speak>Failed to restore factory settings. Try again.</speak>"
